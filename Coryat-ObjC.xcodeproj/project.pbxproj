@@ -17,6 +17,9 @@
 		D39F1C001A87130100513A44 /* Clue.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1BFF1A87130100513A44 /* Clue.m */; };
 		D39F1C061A87137900513A44 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1C051A87137900513A44 /* Game.m */; };
 		D39F1C0F1A881A7D00513A44 /* GameSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1C0E1A881A7D00513A44 /* GameSelectionCell.m */; };
+		D39F1C131A881E2700513A44 /* GameSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1C121A881E2700513A44 /* GameSelectionViewController.m */; };
+		D39F1C151A88227800513A44 /* korinab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D39F1C141A88227800513A44 /* korinab.ttf */; };
+		D39F1C171A88228700513A44 /* Korinna Regular BT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D39F1C161A88228700513A44 /* Korinna Regular BT.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		D39F1C051A87137900513A44 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		D39F1C0D1A881A7D00513A44 /* GameSelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectionCell.h; path = Views/GameSelectionCell.h; sourceTree = "<group>"; };
 		D39F1C0E1A881A7D00513A44 /* GameSelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameSelectionCell.m; path = Views/GameSelectionCell.m; sourceTree = "<group>"; };
+		D39F1C111A881E2700513A44 /* GameSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectionViewController.h; path = Controllers/GameSelectionViewController.h; sourceTree = "<group>"; };
+		D39F1C121A881E2700513A44 /* GameSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameSelectionViewController.m; path = Controllers/GameSelectionViewController.m; sourceTree = "<group>"; };
+		D39F1C141A88227800513A44 /* korinab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = korinab.ttf; sourceTree = "<group>"; };
+		D39F1C161A88228700513A44 /* Korinna Regular BT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Korinna Regular BT.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +96,13 @@
 		D39F1BD41A8704BC00513A44 /* Coryat-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				D39F1C101A881DF600513A44 /* Controllers */,
 				D39F1C0C1A881A3600513A44 /* Views */,
 				D39F1C091A88132000513A44 /* Models */,
 				D39F1BD91A8704BC00513A44 /* AppDelegate.h */,
 				D39F1BDA1A8704BC00513A44 /* AppDelegate.m */,
 				D39F1BE21A8704BC00513A44 /* Main.storyboard */,
 				D39F1BE51A8704BC00513A44 /* Images.xcassets */,
-				D39F1BE71A8704BC00513A44 /* LaunchScreen.xib */,
 				D39F1BDC1A8704BC00513A44 /* Coryat_ObjC.xcdatamodeld */,
 				D39F1BD51A8704BC00513A44 /* Supporting Files */,
 			);
@@ -105,6 +112,8 @@
 		D39F1BD51A8704BC00513A44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D39F1C161A88228700513A44 /* Korinna Regular BT.ttf */,
+				D39F1C141A88227800513A44 /* korinab.ttf */,
 				D39F1BD61A8704BC00513A44 /* Info.plist */,
 				D39F1BD71A8704BC00513A44 /* main.m */,
 			);
@@ -142,10 +151,20 @@
 		D39F1C0C1A881A3600513A44 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D39F1BE71A8704BC00513A44 /* LaunchScreen.xib */,
 				D39F1C0D1A881A7D00513A44 /* GameSelectionCell.h */,
 				D39F1C0E1A881A7D00513A44 /* GameSelectionCell.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		D39F1C101A881DF600513A44 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D39F1C111A881E2700513A44 /* GameSelectionViewController.h */,
+				D39F1C121A881E2700513A44 /* GameSelectionViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39F1C171A88228700513A44 /* Korinna Regular BT.ttf in Resources */,
 				D39F1BE41A8704BC00513A44 /* Main.storyboard in Resources */,
+				D39F1C151A88227800513A44 /* korinab.ttf in Resources */,
 				D39F1BE91A8704BC00513A44 /* LaunchScreen.xib in Resources */,
 				D39F1BE61A8704BC00513A44 /* Images.xcassets in Resources */,
 			);
@@ -250,6 +271,7 @@
 			files = (
 				D39F1C061A87137900513A44 /* Game.m in Sources */,
 				D39F1BDB1A8704BC00513A44 /* AppDelegate.m in Sources */,
+				D39F1C131A881E2700513A44 /* GameSelectionViewController.m in Sources */,
 				D39F1C0F1A881A7D00513A44 /* GameSelectionCell.m in Sources */,
 				D39F1BD81A8704BC00513A44 /* main.m in Sources */,
 				D39F1C001A87130100513A44 /* Clue.m in Sources */,
