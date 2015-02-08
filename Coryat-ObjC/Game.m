@@ -24,4 +24,22 @@
 @dynamic trashScore;
 @dynamic clues;
 
++ (Game *)createGame:(NSManagedObjectContext *)context {
+    Game *newGame = (Game *)[NSEntityDescription insertNewObjectForEntityForName:@"Game" inManagedObjectContext:context];
+    NSArray *oldGames = [Game readAllGames:context];
+    newGame.gameIndex = @(oldGames.count);
+    return newGame;
+}
+
++ (NSArray *)readAllGames:(NSManagedObjectContext *)context {
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Game"];
+    
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"gameIndex" ascending:YES];
+    fetchRequest.sortDescriptors = @[sortDescriptor];
+    
+    NSError *error = [NSError new];
+    NSArray *gameArray = [context executeFetchRequest:fetchRequest error:&error];
+    return gameArray;
+}
+
 @end

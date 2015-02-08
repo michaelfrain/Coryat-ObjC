@@ -24,6 +24,10 @@
 @property (nonatomic, retain) NSNumber * trashCorrect;
 @property (nonatomic, retain) NSNumber * trashScore;
 @property (nonatomic, retain) NSOrderedSet *clues;
+
++ (Game *)createGame:(NSManagedObjectContext *)context;
++ (NSArray *)readAllGames:(NSManagedObjectContext *)context;
+
 @end
 
 @interface Game (CoreDataGeneratedAccessors)
