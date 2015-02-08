@@ -10,7 +10,6 @@
 		D39F1BD81A8704BC00513A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1BD71A8704BC00513A44 /* main.m */; };
 		D39F1BDB1A8704BC00513A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1BDA1A8704BC00513A44 /* AppDelegate.m */; };
 		D39F1BDE1A8704BC00513A44 /* Coryat_ObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D39F1BDC1A8704BC00513A44 /* Coryat_ObjC.xcdatamodeld */; };
-		D39F1BE11A8704BC00513A44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39F1BE01A8704BC00513A44 /* ViewController.m */; };
 		D39F1BE41A8704BC00513A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39F1BE21A8704BC00513A44 /* Main.storyboard */; };
 		D39F1BE61A8704BC00513A44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39F1BE51A8704BC00513A44 /* Images.xcassets */; };
 		D39F1BE91A8704BC00513A44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39F1BE71A8704BC00513A44 /* LaunchScreen.xib */; };
@@ -34,8 +33,6 @@
 		D39F1BD91A8704BC00513A44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D39F1BDA1A8704BC00513A44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D39F1BDD1A8704BC00513A44 /* Coryat_ObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coryat_ObjC.xcdatamodel; sourceTree = "<group>"; };
-		D39F1BDF1A8704BC00513A44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D39F1BE01A8704BC00513A44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D39F1BE31A8704BC00513A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D39F1BE51A8704BC00513A44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D39F1BE81A8704BC00513A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,8 +82,6 @@
 			children = (
 				D39F1BD91A8704BC00513A44 /* AppDelegate.h */,
 				D39F1BDA1A8704BC00513A44 /* AppDelegate.m */,
-				D39F1BDF1A8704BC00513A44 /* ViewController.h */,
-				D39F1BE01A8704BC00513A44 /* ViewController.m */,
 				D39F1BE21A8704BC00513A44 /* Main.storyboard */,
 				D39F1BE51A8704BC00513A44 /* Images.xcassets */,
 				D39F1BE71A8704BC00513A44 /* LaunchScreen.xib */,
@@ -224,7 +219,6 @@
 			files = (
 				D39F1BDB1A8704BC00513A44 /* AppDelegate.m in Sources */,
 				D39F1BD81A8704BC00513A44 /* main.m in Sources */,
-				D39F1BE11A8704BC00513A44 /* ViewController.m in Sources */,
 				D39F1BDE1A8704BC00513A44 /* Coryat_ObjC.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
