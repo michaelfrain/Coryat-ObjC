@@ -9,12 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+@class Game;
 
 @interface Clue : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * result;
 @property (nonatomic, retain) NSNumber * selectionOrder;
 @property (nonatomic, retain) NSNumber * value;
-@property (nonatomic, retain) NSManagedObject *game;
+@property (nonatomic, retain) Game *game;
 
 @end
